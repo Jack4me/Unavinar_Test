@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b54ba4b523d14504c93486b764558a3b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Sport
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 85c1692bf696e6e46999cf33f7ff0239, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
