@@ -10,14 +10,18 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody _playerRb;
     [SerializeField] private MoveController _moveCtrl;
+    [SerializeField] private float _power = 20;
+
     void Start()
     {
         _playerRb = GetComponent<Rigidbody>();
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider wallCollider)
     {
-        _moveCtrl.Hit();
-        Destroy(other.gameObject);
+        Rigidbody wallRigidody = wallCollider.GetComponent<Rigidbody>();
+        wallRigidody.useGravity = true;
+        wallCollider.isTrigger = false;
+        wallRigidody.AddForce(0, 0, 1 * _power);
     }
 }
