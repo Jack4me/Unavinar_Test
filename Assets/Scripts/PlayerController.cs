@@ -19,9 +19,19 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider wallCollider)
     {
-        Rigidbody wallRigidody = wallCollider.GetComponent<Rigidbody>();
-        wallRigidody.useGravity = true;
-        wallCollider.isTrigger = false;
-        wallRigidody.AddForce(0, 0, 1 * _power);
+        if (wallCollider.CompareTag("WallBrick"))
+        {
+            Rigidbody wallRigidody = wallCollider.GetComponent<Rigidbody>();
+            wallRigidody.useGravity = true;
+            wallRigidody.AddForce(0, 0, 1 * _power);
+            _moveCtrl.Hit();
+            wallCollider.isTrigger = false;
+        }
+
+        if (wallCollider.gameObject.CompareTag("End"))
+        {
+            Debug.Log("GAME OVER");
+            _moveCtrl.enabled = false;
+        }
     }
 }

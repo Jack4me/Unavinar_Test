@@ -6,29 +6,32 @@ public class MoveController : MonoBehaviour
 
 {
     [SerializeField] private float _speedRotation = 600;
-    [SerializeField] private float _speedPlayer = 5f;
+     public float _speedPlayer = 5f;
 
 
-    private Rigidbody _playerRb;
     private Vector3 playerDirection;
+    private bool _hit = false;
 
     void Start()
     {
         MoveDirection();
-        _playerRb = GetComponent<Rigidbody>();
     }
 
     private void Update()
     {
         MouseCtrlPlayer();
 
-        transform.position += playerDirection * Time.deltaTime;
-
-        if (transform.position.z > 40)
+        Vector3 direction = Vector3.zero;
+        if (_hit)
         {
-            transform.position = new Vector3(0, 0f, 40);
-            _speedPlayer = 0;
+            direction = -playerDirection * Time.deltaTime;
         }
+        else
+        {
+            direction = playerDirection * Time.deltaTime;
+        }
+
+        transform.position += direction;
     }
 
     void MouseCtrlPlayer()
@@ -43,6 +46,13 @@ public class MoveController : MonoBehaviour
 
     public void Hit()
     {
-        
+        StartCoroutine("HitCoroutine");
+    }
+
+    private IEnumerator HitCoroutine()
+    {
+        _hit = true;
+        yield return new WaitForSeconds(0.5f);
+        _hit = false;
     }
 }

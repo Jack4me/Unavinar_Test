@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Wall
   - slowMove
+  - End
+  - WallBrick
   layers:
   - Default
   - TransparentFX
