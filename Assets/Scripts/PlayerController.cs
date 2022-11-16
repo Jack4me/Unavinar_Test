@@ -28,10 +28,6 @@ public class PlayerController : MonoBehaviour
             wallCollider.isTrigger = false;
         }
 
-        if (wallCollider.gameObject.CompareTag("End"))
-        {
-            Debug.Log("GAME OVER");
-            _moveCtrl.enabled = false;
-        }
+        
     }
 }

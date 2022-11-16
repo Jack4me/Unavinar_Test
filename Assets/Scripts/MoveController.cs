@@ -6,7 +6,8 @@ public class MoveController : MonoBehaviour
 
 {
     [SerializeField] private float _speedRotation = 600;
-     public float _speedPlayer = 5f;
+    public float _speedPlayer = 5f;
+    private float _accelerationPlayer;
 
 
     private Vector3 playerDirection;
@@ -22,6 +23,13 @@ public class MoveController : MonoBehaviour
         MouseCtrlPlayer();
 
         Vector3 direction = Vector3.zero;
+        if (Input.GetKey(KeyCode.Space))
+        {
+            Debug.Log("GOOOOO!!!!");
+            _accelerationPlayer = 5f;
+            transform.position -= -playerDirection * Time.deltaTime * _accelerationPlayer;
+        }
+
         if (_hit)
         {
             direction = -playerDirection * Time.deltaTime;
