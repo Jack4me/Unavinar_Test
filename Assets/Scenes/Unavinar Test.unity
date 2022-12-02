@@ -198,6 +198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!1 &3195909
@@ -332,6 +336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!1 &66644692
@@ -360,14 +368,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66644692}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -60, y: 0, z: 332}
+  m_LocalRotation: {x: 0, y: 0, z: -0.07027874, w: 0.9975274}
+  m_LocalPosition: {x: -75, y: -153, z: 268}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -8.06}
 --- !u!65 &66644694
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -764,6 +772,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!4 &99956605 stripped
@@ -905,14 +917,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118942082}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -179, y: -216, z: -128}
+  m_LocalRotation: {x: 0, y: 0, z: -0.07027874, w: 0.9975274}
+  m_LocalPosition: {x: -103, y: -382, z: -128}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
   m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -8.06}
 --- !u!65 &118942084
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1223,6 +1235,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!4 &147079567 stripped
@@ -1282,14 +1298,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 158387231}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.08541691, y: 0, z: 0, w: 0.99634534}
   m_LocalPosition: {x: -651, y: 0, z: 428}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.8, y: 0, z: 0}
 --- !u!65 &158387233
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6618,14 +6634,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276244363}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0785461, w: 0.9969105}
   m_LocalPosition: {x: -618, y: -347, z: 77}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
   m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 9.01}
 --- !u!65 &276244365
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6796,14 +6812,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287439164}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -704, y: -396, z: 412.75}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0785461, w: 0.9969105}
+  m_LocalPosition: {x: -642, y: -274, z: 330}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 9.01}
 --- !u!65 &287439166
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7069,8 +7085,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 307804318}
-  - component: {fileID: 307804320}
   - component: {fileID: 307804319}
+  - component: {fileID: 307804321}
   m_Layer: 0
   m_Name: branch1
   m_TagString: Player
@@ -7108,23 +7124,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveCtrl: {fileID: 620135264}
-  _power: 20
---- !u!54 &307804320
-Rigidbody:
+  score: {fileID: 1938528118}
+--- !u!65 &307804321
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307804317}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
+  m_Size: {x: 1.8022614, y: 0.77259827, z: 0.80560935}
+  m_Center: {x: 1.526341, y: 1.5098968, z: -0.0034278035}
 --- !u!1 &319750469 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
@@ -7208,14 +7221,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336152072}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.08541691, y: 0, z: 0, w: 0.99634534}
   m_LocalPosition: {x: -334.5, y: 0, z: 465.75}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.8, y: 0, z: 0}
 --- !u!65 &336152074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7391,14 +7404,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376451267}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -759, y: -396, z: -102}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0785461, w: 0.9969105}
+  m_LocalPosition: {x: -786, y: -396, z: -62}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 9.01}
 --- !u!65 &376451269
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7644,6 +7657,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!1001 &404354738
@@ -7844,8 +7861,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 408568820}
-  - component: {fileID: 408568822}
   - component: {fileID: 408568821}
+  - component: {fileID: 408568823}
   m_Layer: 0
   m_Name: branch2
   m_TagString: Player
@@ -7882,23 +7899,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveCtrl: {fileID: 620135264}
-  _power: 20
---- !u!54 &408568822
-Rigidbody:
+  score: {fileID: 1938528118}
+--- !u!65 &408568823
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408568819}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
+  m_Size: {x: 0.8478589, y: 0.75280714, z: 0.7648895}
+  m_Center: {x: -1.0165052, y: 3.5307515, z: 0.020745039}
 --- !u!1001 &412788082
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8009,18 +8023,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1260093208}
     m_Modifications:
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4736684505242452204, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure blue
@@ -8375,14 +8377,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454455617}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -130.75, y: 0, z: 465.75}
+  m_LocalRotation: {x: 0, y: 0, z: -0.07027874, w: 0.9975274}
+  m_LocalPosition: {x: -93, y: -161, z: 417}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -8.06}
 --- !u!65 &454455619
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8520,6 +8522,10 @@ PrefabInstance:
     - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
@@ -8684,6 +8690,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!4 &474443045 stripped
@@ -8791,6 +8801,10 @@ PrefabInstance:
     - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
@@ -9058,6 +9072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!1001 &495544154
@@ -9135,6 +9153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!4 &497111134 stripped
@@ -9178,7 +9200,7 @@ Transform:
   - {fileID: 3195910}
   - {fileID: 966036500}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &508754257 stripped
 GameObject:
@@ -9356,7 +9378,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546499013}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 60, y: 0, z: 412.75}
+  m_LocalPosition: {x: -99, y: -72, z: 552}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9877,14 +9899,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572651461}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -743, y: -347, z: 45.99997}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0785461, w: 0.9969105}
+  m_LocalPosition: {x: -748, y: -348, z: 45.99997}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 9.01}
 --- !u!65 &572651463
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10036,18 +10058,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1260093208}
     m_Modifications:
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4736684505242452204, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure blue (6)
@@ -10230,14 +10240,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593643917}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -160, y: -88, z: 160}
+  m_LocalRotation: {x: 0, y: 0, z: -0.07027874, w: 0.9975274}
+  m_LocalPosition: {x: -62, y: -257, z: 160}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -8.06}
 --- !u!65 &593643919
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10572,14 +10582,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615398093}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -182, y: 0, z: -18}
+  m_LocalRotation: {x: 0, y: 0, z: -0.07027874, w: 0.9975274}
+  m_LocalPosition: {x: -67, y: -171, z: -18}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -8.06}
 --- !u!65 &615398095
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10672,8 +10682,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac01dee3ef1a7e2478f0293fa8145761, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speedRotation: 600
   _speedPlayer: 5
+  _speedRotation: 600
+  _smooth: 5
+  _scoreRef: {fileID: 1938528118}
 --- !u!4 &620135265
 Transform:
   m_ObjectHideFlags: 0
@@ -10690,7 +10702,7 @@ Transform:
   - {fileID: 307804318}
   - {fileID: 408568820}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &624443873 stripped
 Transform:
@@ -10774,103 +10786,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a83d1b770fe0e34ea0ec9f13369f5fd, type: 3}
---- !u!1 &632591450
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 632591451}
-  - component: {fileID: 632591454}
-  - component: {fileID: 632591453}
-  - component: {fileID: 632591452}
-  m_Layer: 0
-  m_Name: t (13)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &632591451
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 632591450}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -157, y: -271, z: -297}
-  m_LocalScale: {x: 100, y: 1101.1, z: 100}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1811613973}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &632591452
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 632591450}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &632591453
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 632591450}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: dccec59dd2eac9641977c32c172dcf11, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &632591454
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 632591450}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &652922497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11176,6 +11091,10 @@ PrefabInstance:
     - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
@@ -11529,6 +11448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!1001 &714863839
@@ -11759,6 +11682,10 @@ PrefabInstance:
     - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
@@ -12026,6 +11953,10 @@ PrefabInstance:
     - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
@@ -12374,6 +12305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!1001 &771433153
@@ -12450,6 +12385,10 @@ PrefabInstance:
     - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
@@ -13113,6 +13052,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!1001 &847979958
@@ -13276,6 +13219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!1 &849937867
@@ -13291,6 +13238,7 @@ GameObject:
   - component: {fileID: 849937870}
   - component: {fileID: 849937869}
   - component: {fileID: 849937873}
+  - component: {fileID: 849937874}
   m_Layer: 0
   m_Name: End
   m_TagString: End
@@ -13375,7 +13323,7 @@ Transform:
   m_Children:
   - {fileID: 1840275486}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &849937873
 MonoBehaviour:
@@ -13394,6 +13342,22 @@ MonoBehaviour:
   - {fileID: 1901625193}
   _moveCtrl: {fileID: 620135264}
   completeLevelGUI: {fileID: 1507888482}
+--- !u!54 &849937874
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849937867}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &857928585
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14368,14 +14332,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940391768}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -864, y: -347, z: 46}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0785461, w: 0.9969105}
+  m_LocalPosition: {x: -832, y: -347, z: -159}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 9.01}
 --- !u!65 &940391770
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14451,18 +14415,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 307804318}
     m_Modifications:
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4736684505242452204, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure blue (4)
@@ -14532,7 +14484,7 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: cbff638bf8da3fd4e802669397794885, type: 2}
     m_RemovedComponents:
-    - {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
 --- !u!1 &954318998 stripped
 GameObject:
@@ -14635,6 +14587,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!1 &958036039
@@ -14663,14 +14619,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 958036039}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.08541691, y: 0, z: 0, w: 0.99634534}
   m_LocalPosition: {x: -430, y: 0, z: 428}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.8, y: 0, z: 0}
 --- !u!65 &958036041
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15067,18 +15023,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1260093208}
     m_Modifications:
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4736684505242452204, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure blue (8)
@@ -15159,103 +15103,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6059003587714193953, guid: 3a83d1b770fe0e34ea0ec9f13369f5fd, type: 3}
   m_PrefabInstance: {fileID: 1915016778}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &994210327
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 994210328}
-  - component: {fileID: 994210331}
-  - component: {fileID: 994210330}
-  - component: {fileID: 994210329}
-  m_Layer: 0
-  m_Name: t (14)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &994210328
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994210327}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -217, y: -777, z: -526}
-  m_LocalScale: {x: 100, y: 1101.1, z: 100}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1811613973}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &994210329
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994210327}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &994210330
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994210327}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: dccec59dd2eac9641977c32c172dcf11, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &994210331
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994210327}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1000558265 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
@@ -15352,6 +15199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!4 &1003886857 stripped
@@ -15443,6 +15294,10 @@ PrefabInstance:
     - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
@@ -16260,14 +16115,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141690759}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0785461, w: 0.9969105}
   m_LocalPosition: {x: -691, y: -396, z: -280}
   m_LocalScale: {x: 336.89, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 9.01}
 --- !u!65 &1141690761
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16655,6 +16510,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!1001 &1187224407
@@ -16732,6 +16591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!1001 &1201928170
@@ -16808,6 +16671,10 @@ PrefabInstance:
     - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
@@ -17080,6 +16947,90 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1222150247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1222150251}
+  - component: {fileID: 1222150250}
+  - component: {fileID: 1222150249}
+  m_Layer: 0
+  m_Name: Capsule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1222150249
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222150247}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 06a6232ec824e23468946b5b0d8be2b8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1222150250
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222150247}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1222150251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222150247}
+  m_LocalRotation: {x: -0.7071061, y: -0, z: -0, w: 0.70710754}
+  m_LocalPosition: {x: 0, y: -0.6, z: 92.5}
+  m_LocalScale: {x: 14.545914, y: 131.28, z: 1.580018}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1479177857}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &1223807731 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
@@ -17230,18 +17181,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1260093208}
     m_Modifications:
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4736684505242452204, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure blue (5)
@@ -17387,6 +17326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!1001 &1258766864
@@ -17475,7 +17418,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6138043921473953259, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
   m_PrefabInstance: {fileID: 1258766864}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1258766866
+--- !u!54 &1258766870
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17500,8 +17443,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1260093208}
-  - component: {fileID: 1260093210}
-  - component: {fileID: 1260093209}
   m_Layer: 0
   m_Name: trunk
   m_TagString: Player
@@ -17530,36 +17471,6 @@ Transform:
   m_Father: {fileID: 620135265}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1260093209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1260093207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48b2ec7659ca857428e6d5dccaef31a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _moveCtrl: {fileID: 620135264}
-  _power: 20
---- !u!54 &1260093210
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1260093207}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!1001 &1264261760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17725,18 +17636,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1260093208}
     m_Modifications:
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4736684505242452204, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure blue (1)
@@ -17913,6 +17812,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!4 &1307225105 stripped
@@ -18031,6 +17934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!4 &1320009303 stripped
@@ -18133,6 +18040,10 @@ PrefabInstance:
     - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
@@ -19152,7 +19063,7 @@ RectTransform:
   - {fileID: 1210745975}
   - {fileID: 1507888483}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -19316,6 +19227,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1478802978}
   m_CullTransparentMesh: 1
+--- !u!1 &1479177856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1479177857}
+  - component: {fileID: 1479177859}
+  - component: {fileID: 1479177858}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1479177857
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479177856}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.97, y: 2.22, z: 0.24152}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1222150251}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1479177858
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479177856}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1479177859
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479177856}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1483566464 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
@@ -19951,14 +19916,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562365561}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.08541691, y: 0, z: 0, w: 0.99634534}
   m_LocalPosition: {x: -553, y: 0, z: 481}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.8, y: 0, z: 0}
 --- !u!65 &1562365563
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20092,7 +20057,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1591144378
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20419,7 +20384,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
   m_PrefabInstance: {fileID: 1437465138}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1655605220
+--- !u!54 &1655605224
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20509,6 +20474,10 @@ PrefabInstance:
     - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
@@ -20661,14 +20630,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687607042}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -509, y: -347, z: 150}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0785461, w: 0.9969105}
+  m_LocalPosition: {x: -640, y: -368, z: 207}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
-  m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 9.01}
 --- !u!65 &1687607044
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21084,6 +21053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!1 &1736614476 stripped
@@ -21195,18 +21168,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1260093208}
     m_Modifications:
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4736684505242452204, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure blue (2)
@@ -21420,7 +21381,7 @@ Transform:
   - {fileID: 1602966140}
   - {fileID: 2026214244}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1760172209 stripped
 Transform:
@@ -21675,22 +21636,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 307804318}
     m_Modifications:
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.x
-      value: 2.4005046
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Center.x
-      value: 0.70025206
-      objectReference: {fileID: 0}
     - target: {fileID: 4736684505242452204, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure blue (3)
@@ -21756,10 +21701,15 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6538356971328594233, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538356971328594233, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: cbff638bf8da3fd4e802669397794885, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
 --- !u!1001 &1806028493
 PrefabInstance:
@@ -21879,8 +21829,6 @@ Transform:
   - {fileID: 940391769}
   - {fileID: 276244364}
   - {fileID: 118942083}
-  - {fileID: 632591451}
-  - {fileID: 994210328}
   - {fileID: 376451268}
   - {fileID: 1141690760}
   - {fileID: 287439165}
@@ -21888,7 +21836,7 @@ Transform:
   - {fileID: 1687607043}
   - {fileID: 615398094}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1813693966 stripped
 Transform:
@@ -22094,7 +22042,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1835072163 stripped
 Transform:
@@ -22412,6 +22360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!1001 &1873353681
@@ -22668,6 +22620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
 --- !u!4 &1884866595 stripped
@@ -22759,18 +22715,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 408568820}
     m_Modifications:
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4058656200435170185, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
-      propertyPath: m_Size.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4736684505242452204, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure blue (7)
@@ -22839,7 +22783,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: cbff638bf8da3fd4e802669397794885, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: c7675d177a715e348afc15f0fd5012b2, type: 3}
 --- !u!1 &1901625190
 GameObject:
@@ -27700,14 +27645,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1906636658}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -95.25, y: 0, z: 631.5}
-  m_LocalScale: {x: 336.89, y: 1101.1, z: 100}
+  m_LocalRotation: {x: 0.08541691, y: 0, z: 0, w: 0.99634534}
+  m_LocalPosition: {x: -250, y: -144, z: 587}
+  m_LocalScale: {x: 193.0245, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.8, y: 0, z: 0}
 --- !u!65 &1906636660
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28087,7 +28032,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1938528118
 MonoBehaviour:
@@ -28101,8 +28046,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 721c2e9cbe3abe74b84a39ae35bfaede, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 620135265}
   scoreText: {fileID: 1210745976}
+  score: 0
+  increasePerSecond: 0
+  IsAcceleration: 0
+  IsHitTheBlock: 0
 --- !u!1 &1958137036
 GameObject:
   m_ObjectHideFlags: 0
@@ -28134,7 +28082,7 @@ Transform:
   - {fileID: 858521572}
   - {fileID: 549567550}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1958910247
 PrefabInstance:
@@ -28210,6 +28158,10 @@ PrefabInstance:
     - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
       propertyPath: m_Name
       value: Dice_d6_Plastic Glossy Pure write (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801955793903224657, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
+      propertyPath: m_TagString
+      value: WallBrick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2b9188252a78b4298fb8e34d9229ee, type: 3}
@@ -28423,14 +28375,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974154740}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -717, y: 180, z: 728}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0785461, w: 0.9969105}
+  m_LocalPosition: {x: -568, y: -360, z: -335}
   m_LocalScale: {x: 100, y: 1101.1, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1811613973}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 9.01}
 --- !u!65 &1974154742
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -5,29 +5,28 @@ using System.Security.Cryptography;
 using Unity.VisualScripting;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
+
 public class PlayerController : MonoBehaviour
 {
-    private Rigidbody _playerRb;
     [SerializeField] private MoveController _moveCtrl;
-    [SerializeField] private float _power = 20;
+    public Score score;
+    private float _power;
 
-    void Start()
+    private void Start()
     {
-        _playerRb = GetComponent<Rigidbody>();
+        _power = 10;
     }
 
     private void OnTriggerEnter(Collider wallCollider)
     {
         if (wallCollider.CompareTag("WallBrick"))
         {
-            Rigidbody wallRigidody = wallCollider.GetComponent<Rigidbody>();
-            wallRigidody.useGravity = true;
-            wallRigidody.AddForce(0, 0, 1 * _power);
-            _moveCtrl.Hit();
+            Rigidbody wallRigibody = wallCollider.GetComponent<Rigidbody>();
             wallCollider.isTrigger = false;
+            wallRigibody.useGravity = true;
+            wallRigibody.AddForce(0, 0, 1 * _power);
+            _moveCtrl.Hit();
+            score.score -= 5;
         }
-
-        
     }
 }

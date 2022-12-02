@@ -7,7 +7,7 @@ public class Finish : MonoBehaviour
 {
     [SerializeField] private ParticleSystem[] _particleSystem;
     private GameManager _gameManager;
-    public MoveController _moveCtrl;
+    [SerializeField] public MoveController _moveCtrl;
     public GameObject completeLevelGUI;
 
     private void Start()

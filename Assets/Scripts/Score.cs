@@ -6,17 +6,41 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
-    public Transform _player;
     public Text scoreText;
-    // private static int _score = 0;
+    public float score;
+    public float increasePerSecond;
 
-    private void OnGUI()
+    public bool IsAcceleration;
+    public bool IsHitTheBlock;
+
+    private void Start()
     {
-        
+        score = 0;
+        increasePerSecond = 1;
     }
 
     void Update()
     {
-        scoreText.text = _player.position.z.ToString("0");
+        if (IsAcceleration)
+        {
+            Debug.Log("Accelerationnn!!!");
+            score += 2 * Time.deltaTime;
+            scoreText.text = (int)score + "";
+            IsAcceleration = false;
+        }
+
+        else if (IsHitTheBlock)
+        {
+            Debug.Log("Hit The Block");
+            score -= 2 * Time.deltaTime;
+            scoreText.text = (int)score + "";
+            IsHitTheBlock = false;
+        }
+        else
+        {
+            Debug.Log("Too-Too");
+            score += 1 * Time.deltaTime;
+            scoreText.text = (int)score + "";
+        }
     }
 }
