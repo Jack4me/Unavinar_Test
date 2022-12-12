@@ -1,7 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
+
 
 public class MoveController : MonoBehaviour
 
@@ -14,11 +17,13 @@ public class MoveController : MonoBehaviour
     private float angleY;
     private float _currentAngle;
 
+
     private bool _hit = false;
     private int count = 0;
     private Vector3 playerDirection;
     public Score _scoreRef;
-
+    public new Camera camera;
+    
 
     void Start()
     {
@@ -29,11 +34,18 @@ public class MoveController : MonoBehaviour
     private void Update()
     {
         Vector3 direction = Vector3.zero;
+
         if (Input.GetKey(KeyCode.Space))
         {
+           camera.fieldOfView = Mathf.Lerp(camera.fieldOfView, 100f, Time.deltaTime * 0.8f);
             _scoreRef.IsAcceleration = true;
             Debug.Log("GOOOOO!!!!");
             transform.position -= -playerDirection * Time.deltaTime * _accelerationPlayer;
+        }
+        else 
+        {
+           camera.fieldOfView = Mathf.Lerp(camera.fieldOfView, 60f, Time.deltaTime * 1f);
+             
         }
 
 
@@ -54,10 +66,6 @@ public class MoveController : MonoBehaviour
             Debug.Log("Mouse1");
 
             transform.Rotate(new Vector3(0, Input.GetAxis("Mouse X"), 0) * Time.deltaTime * _speedRotation);
-
-            Debug.Log(angleY + "angleY");
-
-
         }
 
         else
@@ -66,6 +74,11 @@ public class MoveController : MonoBehaviour
             _currentAngle = transform.rotation.eulerAngles.y;
             Quaternion target = Quaternion.Euler(0, Nearest(_currentAngle), 0);
             transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * _smooth);
+        }
+        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("MainMenu");
         }
     }
 
